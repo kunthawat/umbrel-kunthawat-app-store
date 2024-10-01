@@ -1,7 +1,11 @@
 services:
-
+  app_proxy:
+    environment:
+      APP_HOST: kunthawat-affine_web_1
+      APP_PORT: 3010
+      PROXY_AUTH_ADD: "false"
   web:
-    image: gghcr.io/toeverything/affine-graphql:canary-a3f8e6c@sha256:cfbf9d73be3f60d76c6ddeec8327c3271157fac9cd9a2aeb14ba23eb2a5e3b6f
+    image: ghcr.io/toeverything/affine-graphql:canary-a3f8e6c@sha256:cfbf9d73be3f60d76c6ddeec8327c3271157fac9cd9a2aeb14ba23eb2a5e3b6f
     restart: on-failure
     init: true
     command:
