@@ -1,9 +1,4 @@
 services:
-  app_proxy:
-    environment:
-      APP_HOST: kavita_web_1
-      APP_PORT: 5001
-      PROXY_AUTH_ADD: "false"
 
     kavita:
         image: jvmilazz0/kavita:latest    # Using the stable branch from the official dockerhub repo.
