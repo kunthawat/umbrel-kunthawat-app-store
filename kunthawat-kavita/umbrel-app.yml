@@ -5,7 +5,7 @@ tagline: Ebook and Comic reader
 icon: https://demo.kavitareader.com/assets/images/logo-32.png
 category: Development
 version: "latest"
-port: 5000
+port: 5001
 description: >-
   Lightning fast with a slick design, Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats. Install to start reading and share your server with your friends.
 
