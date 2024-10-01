@@ -2,7 +2,7 @@ manifestVersion: 1
 id: kunthawat-kavita
 name: Kavita
 tagline: Ebook and Comic reader
-icon: https://github.com/Kareadita/Kavita/blob/develop/Logo/kavita.svg
+icon: https://github.com/Kareadita/Kavita/blob/develop/UI/Web/src/assets/images/logo-64.png?raw=true
 category: Development
 version: "latest"
 port: 5000
