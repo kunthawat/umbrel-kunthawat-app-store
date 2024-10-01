@@ -6,7 +6,7 @@ services:
         volumes:
             - ./data:/kavita/config     # Change './data if you want to have the config files in a different place.
             - ${UMBREL_ROOT}/data/storage/downloads/books:/books
-            - ${UMBREL_ROOT}/data/storage/downloads/magas:/manga
+            - ${UMBREL_ROOT}/data/storage/downloads/mangas:/manga
                                         # /kavita/config must not be changed
         environment:
             - TZ=Your/Timezone
