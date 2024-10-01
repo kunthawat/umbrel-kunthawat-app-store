@@ -1,7 +1,7 @@
 services:
   app_proxy:
     environment:
-      APP_HOST: affine_web_1
+      APP_HOST: kunthawat-affine_web_1
       APP_PORT: 3010
       PROXY_AUTH_ADD: "false"
 
