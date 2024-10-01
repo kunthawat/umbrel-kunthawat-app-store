@@ -1,7 +1,7 @@
 services:
   app_proxy:
     environment:
-      APP_HOST: kavita
+      APP_HOST: kavita_web_1
       APP_PORT: 5001
       PROXY_AUTH_ADD: "false"
 
