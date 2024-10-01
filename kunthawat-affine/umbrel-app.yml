@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: affine-noproxy
-name: Affine
+name: Affine (NO Proxy)
 tagline: Open source alternative to Notion, Miro, and Airtable
 category: files
 version: "0.17.0"
