@@ -1,11 +1,10 @@
+version: "3.7"
 services:
-
   app_proxy:
     environment:
       APP_HOST: affine_web_1
       APP_PORT: 3010
       PROXY_AUTH_ADD: "false"
-
 
   web:
     image: ghcr.io/toeverything/affine-graphql:stable-e0f1fe4@sha256:f63fe7160aef51d9f125a6d5842c3666f5b2ac605f729898cef5c894804af1b0
