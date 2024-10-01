@@ -6,7 +6,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   web:
-    image: ghcr.io/toeverything/affine-graphql:stable-e0f1fe4@sha256:f63fe7160aef51d9f125a6d5842c3666f5b2ac605f729898cef5c894804af1b0
+    image: ghcr.io/toeverything/affine-graphql:stable-4e30f75@sha256:41ee56df9812f614213fda736b7910345ce9b4cb7eba1ee63dd64c753ebb27b5
     restart: on-failure
     init: true
     command:
@@ -23,7 +23,7 @@ services:
     depends_on:
       redis:
         condition: service_healthy
-      affine_db_1:
+      db:
         condition: service_healthy
 
   redis:
@@ -37,7 +37,7 @@ services:
       timeout: 5s
       retries: 5
 
-  affine_db_1:
+  db:
     image: postgres:16.2@sha256:f58300ac8d393b2e3b09d36ea12d7d24ee9440440e421472a300e929ddb63460
     restart: on-failure
     environment:
