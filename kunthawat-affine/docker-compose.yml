@@ -5,7 +5,7 @@ services:
       APP_PORT: 3010
       PROXY_AUTH_ADD: "false"
   web:
-    image: ghcr.io/toeverything/affine-graphql:canary-a3f8e6c@sha256:cfbf9d73be3f60d76c6ddeec8327c3271157fac9cd9a2aeb14ba23eb2a5e3b6f
+    image: ghcr.io/toeverything/affine-graphql:stable-4e30f75@sha256:41ee56df9812f614213fda736b7910345ce9b4cb7eba1ee63dd64c753ebb27b5
     restart: on-failure
     init: true
     command:
