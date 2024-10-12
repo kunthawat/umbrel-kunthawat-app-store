@@ -3,12 +3,12 @@ services:
   octobot:
     image: drakkarsoftware/octobot:stable
     volumes:
-       - ./logs:/octobot/logs
-       - ./backtesting:/octobot/backtesting
-       - ./tentacles:/octobot/tentacles
-       - ./user:/octobot/users
+       - ${UMBREL_ROOT}/data/octobot/logs:/octobot/logs
+       - ${UMBREL_ROOT}/data/octobot/backtesting:/octobot/backtesting
+       - ${UMBREL_ROOT}/data/octobot/tentacles:/octobot/tentacles
+       - ${UMBREL_ROOT}/data/octobot/user:/octobot/users
     ports:
-       - ${PORT:-4001}:${PORT:-5001}
+       - ${PORT:-80}:${PORT:-5001}
     restart: always
   
   watchtower:
