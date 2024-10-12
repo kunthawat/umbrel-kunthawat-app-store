@@ -2,7 +2,7 @@ manifestVersion: 1
 id: kunthawat-octobot
 name: Octobot
 tagline: Crypto trading bot
-icon: /opengraph-image.png
+icon: ./opengraph-image.png
 category: Crypto
 version: "2.0.6"
 port: 5001
