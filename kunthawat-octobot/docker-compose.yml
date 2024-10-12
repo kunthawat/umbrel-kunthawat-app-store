@@ -12,7 +12,7 @@ services:
        - ${UMBREL_ROOT}/data/octobot/tentacles:/octobot/tentacles
        - ${UMBREL_ROOT}/data/octobot/user:/octobot/users
     ports:
-       - ${PORT:-5001}:${PORT:-5001}
+       - ${PORT:-5001}:${PORT:-5002}
     restart: always
   
   watchtower:
