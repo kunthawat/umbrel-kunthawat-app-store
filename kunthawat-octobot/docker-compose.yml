@@ -2,7 +2,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: kunthawat-octobot_octobot_1
-      APP_PORT: 5011
+      APP_PORT: 5001
       PROXY_AUTH_ADD: "false"
   octobot:
     image: drakkarsoftware/octobot:stable
@@ -10,9 +10,9 @@ services:
        - ./logs:/octobot/logs
        - ./backtesting:/octobot/backtesting
        - ./tentacles:/octobot/tentacles
-       - ./user:/octobot/user
+       - ./user:/octobot/users
     ports:
-       - ${PORT:-5011}:${PORT:-5001}
+       - ${PORT:-4001}:${PORT:-5001}
     restart: always
   
   watchtower:
