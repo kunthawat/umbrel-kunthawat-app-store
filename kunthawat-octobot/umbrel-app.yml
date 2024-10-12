@@ -4,8 +4,8 @@ name: Octobot
 tagline: Crypto trading bot
 icon: https://github.com/kunthawat/umbrel-kunthawat-app-store/blob/master/kunthawat-octobot/opengraph-image.png?raw=true
 category: Crypto
-version: "2.0.6 with app_proxy"
-port: 5001
+version: "2.0.6 with app_proxy new"
+port: 5002
 description: >-
   Octobot is a powerful open-source cryptocurrency trading robot.
 developer: Drakkar-Software
