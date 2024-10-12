@@ -1,4 +1,9 @@
 services:
+  app_proxy:
+    environment:
+      APP_HOST: kunthawat-octobot_octobot_1
+      APP_PORT: 5001
+      PROXY_AUTH_ADD: "false"
   octobot:
     image: drakkarsoftware/octobot:stable
     volumes:
